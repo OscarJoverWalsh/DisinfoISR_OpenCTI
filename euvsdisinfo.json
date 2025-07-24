@@ -1,22 +1,31 @@
 {
-    "type": "bundle",
-    "id": "bundle--00000000-0000-0000-0000-000000000000",
-    "objects": [
-        {
-            "type": "identity",
-            "spec_version": "2.1",
-            "id": "identity--10b00c79-ab20-5ed4-b37d-337241b96a10",
-            "created": "2025-01-01T00:00:00.000000Z",
-            "modified": "2025-01-01T00:00:00.000000Z",
-            "name": "OJW",
-            "description": "",
-            "identity_class": "organization",
-            "revoked": false,
-            "confidence": 100,
-            "object_marking_refs": [
-                "marking-definition--103f2e26-407d-48c7-9eca-b8e91df99d10"
-            ],
-            "x_opencti_organization_type": "vendor"
-        }
-    ]
+  "type": "bundle",
+  "id": "bundle--00000000-0000-0000-0000-000000000000",
+  "objects": [
+    {
+      "type": "marking-definition",
+      "id": "marking-definition--103f2e26-407d-48c7-9eca-b8e91df99d10",
+      "created": "2016-01-01T00:00:00.000Z",
+      "definition_type": "TLP",
+      "definition": {
+        "tlp": "white"
+      }
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--10b00c79-ab20-5ed4-b37d-337241b96a10",
+      "created": "2025-01-01T00:00:00.000000Z",
+      "modified": "2025-01-01T00:00:00.000000Z",
+      "name": "OJW",
+      "description": "",
+      "identity_class": "organization",
+      "revoked": false,
+      "confidence": 100,
+      "object_marking_refs": [
+        "marking-definition--103f2e26-407d-48c7-9eca-b8e91df99d10"
+      ],
+      "x_opencti_organization_type": "vendor"
+    }
+  ]
 }
